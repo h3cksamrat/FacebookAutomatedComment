@@ -39,13 +39,13 @@ Open your terminal and run the following command:
     ```
 
 2. After you have git and python3 installed, next step is cloning the project.
-<br>
+
     ```bash
     git clone https://github.com/h3ck-samrat/FacebookAutomatedComment.git
     ```
 
 3. Navigating to the project and running the file.
-<br>
+
     ```bash
     cd FacebookAutomatedComment/
     ```
@@ -60,13 +60,13 @@ Open your terminal and run the following command:
 Setup git using this [blog](https://dev.to/qm3ster/setting-up-gitsshgpg-on-windows-5c85) by Mihail Malo.
 
 1. After the completion of installation of python3 and git, next step is cloning the project.
-<br>
+
     ```powershell
     git clone https://github.com/h3ck-samrat/FacebookAutomatedComment.git
     ```
 
 2. Navigating to the project and running the file.
-<br>
+
     ```powershell
     cd FacebookAutomatedComment/
     ```

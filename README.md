@@ -94,5 +94,8 @@ Setup git using this [blog](https://dev.to/qm3ster/setting-up-gitsshgpg-on-windo
 
 Your small contribution may be the biggest contribution to the project. You're welcome for contributing to the project.
 
+## License
 
+Copyright 2020 Samrat Neupane 
+Facebook Automated Comment is free to use under the [open-source MIT-License](https://github.com/h3cksamrat/FacebookAutomatedComment/blob/master/LICENSE)
 

@@ -10,6 +10,8 @@ python --version
 
 If you get Python 3.x.x, you are good with the installation, if it doesn't work follow the [guide](https://realpython.com/installing-python/).
 
+To get this work, you need to have google-chrome installed on your device so, if you don't have it installed on your device [Click Here](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
+
 <br>
 
 ## Linux and MacOS Installation
@@ -39,16 +41,24 @@ Open your terminal and run the following command:
     ```
 
 2. After you have git and python3 installed, next step is cloning the project.
-<br>
+
     ```bash
     git clone https://github.com/h3ck-samrat/FacebookAutomatedComment.git
     ```
 
-3. Navigating to the project and running the file.
-<br>
+3. Navigating to the project.
+
     ```bash
     cd FacebookAutomatedComment/
     ```
+
+4. Create a new virtual environment to avoid packages conflict and run the file.
+    ```bash
+    python -m venv commentAutomation
+    source /commentAutomation/bin/activate
+    pip install -r requirements.txt
+    ```
+
     ```bash
     python3 main.py
     ```
@@ -59,17 +69,25 @@ Open your terminal and run the following command:
 
 Setup git using this [blog](https://dev.to/qm3ster/setting-up-gitsshgpg-on-windows-5c85) by Mihail Malo.
 
-1. After the completion of installation of python3 and git, next step is cloning the project.
-<br>
+1. After you have git and python3 installed, next step is cloning the project.
+
     ```powershell
     git clone https://github.com/h3ck-samrat/FacebookAutomatedComment.git
     ```
 
-2. Navigating to the project and running the file.
-<br>
+2. Navigating to the project.
+
     ```powershell
     cd FacebookAutomatedComment/
     ```
+
+3. Create a new virtual environment to avoid packages conflict and run the file.
+    ```powershell
+    python -m venv commentAutomation
+    source /commentAutomation/bin/activate
+    pip install -r requirements.txt
+    ```
+    
     ```powershell
     python3 main.py
     ```
